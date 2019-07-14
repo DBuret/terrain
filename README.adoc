@@ -1,0 +1,41 @@
+= terrain: a fragment shader terrain marcher
+:author: David Buret
+:source-highlighter: rouge
+:pygments-style: github
+:icons: font
+:sectnums:
+:toclevels: 4
+:toc:
+:imagesdir: images/
+:gitplant: http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/DBuret/terrain/master/
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+== Introduction 
+
+This projet is aimed at discovering fragment shaders.
+
+Easiest way to see the result is on https://www.shadertoy.com/view/MdjSRG[shadertoy].
+
+TIP: All of this comes from reading http://www.iquilezles.org/[Inigo Quilez website] after discovering his https://www.shadertoy.com/view/MdX3Rr[evelated] fragment shader.
+
+== concepts used
+
+* fragment shader
+* procedural terrain generation through perlin noise
+* raymarching
+
+
+== the code
+
+[code,glsl]
+----
+
+include::terrain.glsl
+
+----
