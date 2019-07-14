@@ -22,7 +22,7 @@ This projet is aimed at discovering fragment shaders.
 
 Easiest way to see the result is on https://www.shadertoy.com/view/MdjSRG[shadertoy].
 
-TIP: All of this comes from reading http://www.iquilezles.org/[Inigo Quilez website] after discovering his https://www.shadertoy.com/view/MdX3Rr[evelated] fragment shader.
+TIP: Kudos to http://www.iquilezles.org/[Inigo Quilez website] tht I read after discovering his https://www.shadertoy.com/view/MdX3Rr[evelated] fragment shader.  My code is just an attempt to implement what I learned from him.
 
 == concepts used
 
