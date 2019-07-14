@@ -1,7 +1,6 @@
 = terrain: a fragment shader terrain marcher
 :author: David Buret
-:source-highlighter: rouge
-:pygments-style: github
+:source-highlighter: highlightjs
 :icons: font
 :sectnums:
 :toclevels: 4
@@ -22,7 +21,7 @@ This projet is aimed at discovering fragment shaders.
 
 Easiest way to see the result is on https://www.shadertoy.com/view/MdjSRG[shadertoy].
 
-TIP: Kudos to http://www.iquilezles.org/[Inigo Quilez website] tht I read after discovering his https://www.shadertoy.com/view/MdX3Rr[evelated] fragment shader.  My code is just an attempt to implement what I learned from him.
+TIP: Kudos to http://www.iquilezles.org/[Inigo Quilez website] I read after discovering his https://www.shadertoy.com/view/MdX3Rr[evelated] fragment shader.  My code is just an attempt to implement what I learned from him.
 
 == concepts used
 
@@ -33,9 +32,10 @@ TIP: Kudos to http://www.iquilezles.org/[Inigo Quilez website] tht I read after 
 
 == the code
 
+.terrain.glsl
 [code,glsl]
 ----
 
-include::terrain.glsl
+include::terrain.glsl[]
 
 ----
